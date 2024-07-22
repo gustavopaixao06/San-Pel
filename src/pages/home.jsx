@@ -39,7 +39,7 @@ export function Home() {
                                 desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
 
                             <div className="botao">
-                                <button>Saiba mais!</button>
+                               <a href="/sobre"><button>Saiba mais!</button></a> 
                             </div>
                         </div>
 
