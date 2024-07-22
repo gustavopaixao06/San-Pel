@@ -1,0 +1,85 @@
+import { Link, useLocation } from "react-router-dom";
+import './header.css';
+import React, { useEffect } from 'react';
+
+export function Header() {
+    const location = useLocation();
+    const currentPath = location.pathname;
+
+    useEffect(() => {
+        // Remove a classe 'check' de todos os links
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => item.classList.remove('check'));
+
+        // Adiciona a classe 'check' ao link correspondente à URL atual
+        switch (currentPath) {
+            case '/home':
+                document.getElementById('buttonHome')?.classList.add('check');
+                break;
+            case '/sobre':
+                document.getElementById('buttonSobre')?.classList.add('check');
+                break;
+            case '/servico':
+                document.getElementById('buttonServiços')?.classList.add('check');
+                break;
+            case '/contato':
+                document.getElementById('buttonContato')?.classList.add('check');
+                break;
+            default:
+                break;
+        }
+
+    }, [currentPath]);
+
+    const showMenuMobile = () => {
+        const menuMobile = document.querySelector('.mobile-click');
+
+        let menuStatus = 0
+
+        if (menuStatus === 0) {
+            menuMobile.classList.toggle("menu-show");
+            menuStatus++;
+        } else {
+            menuMobile.classList.remove("menu-show");
+            menuStatus--;
+        }
+    };
+
+    return (
+        <>
+            <header>
+                <div className='centro'>
+
+                    <div className="menu-desktop">
+
+                        <nav className='menu-left'>
+                            <ul>
+                                <li>
+                                    <Link to="/" className="nav-item" id="buttonHome">Home</Link>
+                                </li>
+                                <li>
+                                    <Link to="/sobre" className="" id="buttonSobre">Sobre</Link>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <figure className='logo'>
+                            <Link to="/"><img src="/img/logo-sanpel.svg" alt="Logo" /></Link>
+                        </figure>
+
+                        <nav className='menu-right'>
+                            <ul>
+                                <li>
+                                    <Link to="/servico" className="nav-item" id="buttonServiços">Serviços</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contato" className="" id="buttonContato">Contato</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </>
+    );
+}

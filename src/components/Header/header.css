@@ -1,0 +1,53 @@
+header>.centro {
+    /* Usando o header para que as configurações do display flex fique só no primeiro centro */
+
+    display: flex;
+    /* Flex permite que o elemento se adequem de acordo a tela do dispositivo */
+
+}
+
+.centro-mobile {
+    display: none;
+}
+
+.Logo {
+    margin-bottom: 2vw;
+}
+
+.logo img {
+    width: 12vw;
+    margin-top: -3vw;
+}
+
+.menu-desktop {
+
+    width: 90%;
+    padding: 3.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.menu-desktop a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.menu-desktop li {
+    /* Configurando a lista */
+
+    display: inline-block;
+    /*  deixando o menu em linha*/
+    font-size: 1.6vw;
+    color: white;
+
+}
+
+.nav-item {
+    padding-right: 10vw;
+}
+
+

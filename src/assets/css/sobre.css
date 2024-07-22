@@ -1,0 +1,126 @@
+.primeira-section-sobre {
+    width: 100%;
+    position: relative;
+}
+
+.primeira-section-sobre > img{
+    width: 100%;
+}
+
+.conheca-sobre {
+    margin-left: 39vw;
+    text-align: center;
+    position: absolute;
+    top: 7vw;
+    z-index: 1;
+}
+
+.conheca-sobre h1, h3{
+    text-align: center;
+}
+
+.conheca-sobre h1{
+    color: white;
+    font-size: 2vw;
+}
+
+.conheca-sobre h3{
+    color: #afa2a2;
+    font-size: 1vw;
+}
+
+.linhaConheca {
+    width: 20vw;
+    border-top: 0.15vw solid  #FDC204;
+    border-radius: 0.078125vw;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+
+.segunda-section-sobre {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.descricao-sobre {
+    width: 45%;
+}
+
+.descricao-sobre > p {
+    font-size: 1.2vw;
+    color: white;
+}   
+
+.descricao-sobre-img {
+    width: 30%;
+}
+
+.descricao-sobre-img img {
+    width: 15vw;
+}
+
+.terceira-section-sobre {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.img-terceira {
+    width: 40%;
+}
+
+.img-terceira img {
+    width: 60%;
+}
+
+.descricao-oferece h2 {
+    color: #FDC204;
+    font-size: 1.7vw;
+}
+
+.linhaClientes-sobre {
+    width: 19vw;
+    border-top: 0.15vw solid #ffff;
+    border-radius: 0.078125vw;
+    margin-bottom: 1vw;
+}
+
+.oferece {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+}
+
+.oferece1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+
+.dot {
+    height: 1.2vw;
+    width: 1.2vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    background-color: #FDC204;
+    display: block;
+    margin-right: 1vw;
+}
+
+.oferece h4 {
+    color: white;
+}
+
+.oferece1 h4 {
+    color: white;
+}
+
+.terceira-section-sobre {
+    margin-bottom: 5vw;
+}
