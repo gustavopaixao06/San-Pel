@@ -37,7 +37,7 @@ export function Footer() {
                 <div className="fundo">
                     <div className="linha"></div>
                     
-                    <p>2024 San Pel. Todos os direitos reservados.</p>
+                    <p>2024 <span style={{ color: '#FDC204' }}>San Pel</span>. Todos os direitos reservados.</p>
                     
                 </div>
 

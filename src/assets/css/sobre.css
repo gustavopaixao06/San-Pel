@@ -104,6 +104,7 @@
 }
 
 .dot {
+    margin-top: 0.4vw;
     height: 1.2vw;
     width: 1.2vw;
     background-color: #bbb;
@@ -115,10 +116,12 @@
 
 .oferece h4 {
     color: white;
+    font-size: 1.5vw;
 }
 
 .oferece1 h4 {
     color: white;
+    font-size: 1.5vw;
 }
 
 .terceira-section-sobre {

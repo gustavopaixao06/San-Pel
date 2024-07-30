@@ -70,7 +70,7 @@ export function Header() {
                         <nav className='menu-right'>
                             <ul>
                                 <li>
-                                    <Link to="/servico" className="nav-item" id="buttonServiços">Serviços</Link>
+                                    <Link to="/nossosServicos" className="nav-item" id="buttonServiços">Serviços</Link>
                                 </li>
                                 <li>
                                     <Link to="/contato" className="" id="buttonContato">Contato</Link>

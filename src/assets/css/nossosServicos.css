@@ -1,0 +1,114 @@
+.primeira-section-servicos {
+    width: 100%;
+    position: relative;
+}
+
+.primeira-section-servicos > img{
+    width: 100%;
+}
+
+.conheca-servicos {
+    margin-left: 33vw;
+    text-align: center;
+    position: absolute;
+    top: 7vw;
+    z-index: 1;
+}
+
+.conheca-servicos h1, h3{
+    text-align: center;
+}
+
+.conheca-servicos h1{
+    color: white;
+    font-size: 2vw;
+}
+
+.conheca-servicos h3{
+    color: #afa2a2;
+    font-size: 1vw;
+}
+
+.linhaConheca-servicos {
+    width: 28vw;
+    border-top: 0.15vw solid  #FDC204;
+    border-radius: 0.078125vw;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+
+.segunda-section-servicos {
+    width: 100%;
+}
+
+.descricao-servicos {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3vw
+}
+
+.descricao-servicos h1 {
+    color: #FDC204;
+    font-size: 1.7vw;
+}
+
+.info-servicos {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2vw
+}
+
+.info-servicos p {
+    font-size: 1.3vw;
+    color: white;
+}
+
+.ns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.ns1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.card3{
+    width: 20%;
+    position: relative;
+    cursor: pointer;
+    right: 3vw;
+}
+
+.card3 p:hover {
+    color: #FDC204;
+    transition: 0.5s ease;
+}
+
+
+.card3  p {
+    width: 85%;
+    position: absolute;
+    top: 7vw;
+    left: 4vw;
+    color: white;
+    font-size: 1.4vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.img-card {
+    width: 25vw;
+    display: block;
+}

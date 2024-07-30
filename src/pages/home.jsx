@@ -4,6 +4,11 @@ import '../assets/css/home.css'
 
 
 export function Home() {
+
+    const imageStyle = {
+        opacity: 0.6 // Ajuste o valor conforme necessário
+    };
+
     return (
         <>
             <section className='primeira-secao'>
@@ -12,12 +17,8 @@ export function Home() {
                 <div className='info-home'>
                     <h1>Excelência em qualidade e ponto</h1>
                     <div className="linha-home"></div>
-                    <p>Na San Pel, somos especialistas em caldeiraria e solda, oferecendo soluções de alta qualidade e precisão para atender às necessidades dos nossos clientes.</p>
+                    <p>Na <span style={{ color: '#FDC204' }}>San Pel</span>, somos especialistas em caldeiraria e solda, oferecendo soluções de alta qualidade e precisão para atender às necessidades dos nossos clientes.</p>
                 </div>
-            </section>
-
-            <section className='segunda-secao'>
-
             </section>
 
             <section className='segunda-secao'>
@@ -31,15 +32,17 @@ export function Home() {
                         <div className="soldador"><img src="/img/soldador.svg" alt="" /></div>
 
                         <div className="paragrafo">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                                 and scrambled it to make a type specimen book. It has survived not only five centuries, but also
                                 the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
                                 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            </p>
 
                             <div className="botao">
-                               <a href="/sobre"><button>Saiba mais!</button></a> 
+                                <a href="/sobre"><button>Saiba mais!</button></a>
                             </div>
                         </div>
 
@@ -54,48 +57,48 @@ export function Home() {
                     <h1>NOSSOS SERVIÇOS</h1>
                     <div className="linhaServico"></div>
 
-                    <p>Descubra tudo que a San Pel pode te oferecer</p>
+                    <p>Descubra tudo que a <span style={{ color: '#FDC204' }}>San Pel</span> pode te oferecer</p>
                 </div>
 
                 <div className="cardsServicos">
                     <div className="part1">
                         <div className="card1">
-                            <img className='imgServico' src="/img/servico1.svg" alt="" />
-                            <p>Serviço 1</p>
+                            <img className='imgServico' src="/img/caldeiraria.svg" alt="" style={imageStyle} />
+                            <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
                             <div className="saibaMais">
-                                <a href="">Saiba mais</a>
+                                <a href="/nossosServicos">Saiba mais</a>
                                 <Link><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
                         <div className="card1">
-                            <img className='imgServico' src="/img/servico1.svg" alt="" />
-                            <p>Serviço 2</p>
+                            <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
+                            <p>Tanques e Tubulação de Diversas Finalidades</p>
                             <div className="saibaMais">
-                                <a href="">Saiba mais</a>
+                                <a href="/nossosServicos">Saiba mais</a>
                                 <Link><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
                         <div className="card1">
-                            <img className='imgServico' src="/img/servico1.svg" alt="" />
-                            <p>Serviço 3</p>
+                            <img className='imgServico' src="/img/estrutura.svg" alt="" style={imageStyle} />
+                            <p>Estruturas Metalicas em Geral</p>
                             <div className="saibaMais">
-                                <a href="">Saiba mais</a>
+                                <a href="/nossosServicos">Saiba mais</a>
                                 <Link><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
                         <div className="card1">
-                            <img className='imgServico' src="/img/servico1.svg" alt="" />
-                            <p>Serviço 4</p>
+                            <img className='imgServico' src="/img/equipamentos.svg" alt="" style={imageStyle} />
+                            <p>Equipamentos Agrícolas</p>
                             <div className="saibaMais">
-                                <a href="">Saiba mais</a>
+                                <a href="/nossosServicos">Saiba mais</a>
                                 <Link><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
                     </div>
-
+                    {/* 
                     <div className="part2">
                         <div className="card1">
                             <img className='imgServico' src="/img/servico1.svg" alt="" />
@@ -132,8 +135,11 @@ export function Home() {
                                 <Link><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
 
+                    <div className="botao-servico">
+                        <a href="/nossosServicos"><button>Ver todos</button></a>
+                    </div>
 
                 </div>
 

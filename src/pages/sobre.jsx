@@ -8,9 +8,9 @@ export function Sobre() {
 
                 <img src="/img/imgSobre.svg" alt="" />
                 <div className="conheca-sobre">
-                    <h1>CONHEÇA A SAN PEL</h1>
+                    <h1>CONHEÇA A <span style={{ color: '#FDC204' }}>SAN PEL</span></h1>
                     <div className="linhaConheca"></div>
-                    <h3>E faça parte da nossa família!</h3>
+                    <h3>E faça parte da nossa empresa!</h3>
                 </div>
 
             </section>
@@ -43,34 +43,30 @@ export function Sobre() {
                     <div className="linhaClientes-sobre"></div>
 
                     <div className='oferece'>
-                        <span class="dot"></span>
+                        <span className="dot"></span>
                         <h4>Experiência</h4>
                     </div>
 
                     <div className='oferece1'>
-                        <span class="dot"></span>
+                        <span className="dot"></span>
                         <h4>Segurança</h4>
                     </div>
 
                     <div className='oferece1'>
-                        <span class="dot"></span>
+                        <span className="dot"></span>
                         <h4>Atendimento de qualidade</h4>
                     </div>
 
                     <div className='oferece1'>
-                        <span class="dot"></span>
+                        <span className="dot"></span>
                         <h4>Comunicação</h4>
                     </div>
                     
                     <div className='oferece1'>
-                        <span class="dot"></span>
+                        <span className="dot"></span>
                         <h4>Equipe qualificada</h4>
                     </div>
-                    
-                    <div className='oferece1'>
-                        <span class="dot"></span>
-                        <h4>Equipe qualificada</h4>
-                    </div>
+
                 </div>
             </section>
         </>

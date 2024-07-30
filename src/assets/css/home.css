@@ -34,7 +34,7 @@ a {
 
 .linha-home{
     width: 27vw;
-    border-bottom: 0.15vw solid yellow;
+    border-bottom: 0.15vw solid #FDC204;
     border-radius: 0.078125vw;
 }
 
@@ -104,8 +104,8 @@ a {
 .terceira-secao{
 
     width: 100%;
-    padding: 5vw 0vw 5vw 0vw;
-    background: white;
+    padding: 5vw 0vw 2vw 0vw;
+    background: #e7e6e6;
 }
 
 .servicos h1{
@@ -154,13 +154,15 @@ a {
     position: relative;
 }
 
-.card1 p{
+.card1 p {
+    width: 60%;
     position: absolute;
-    top: 6vw;
-    left: 8vw;
-    color: white;
+    top: 4vw;
+    left: 4vw;
+    color: black;
     font-size: 1vw;
     z-index: 1;
+    text-align: center;
 }
 
 .saibaMais{
