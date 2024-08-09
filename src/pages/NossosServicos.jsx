@@ -34,21 +34,21 @@ export function NossosServicos() {
                 <div className='ns'>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/caldeiraria1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/caldeiraria1.svg" alt="" />
                             <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/tubulacao1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/tubulacao1.svg" alt="" />
                             <p>Tanques e Tubulação de Diversas Finalidades</p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/estrutura1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/estrutura1.svg" alt="" />
                             <p>Estruturas Metalicas em Geral</p>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
@@ -56,21 +56,21 @@ export function NossosServicos() {
                 <div className='ns1'>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/equipamentos1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/equipamentos1.svg" alt="" />
                             <p>Equipamentos Agrícolas</p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/industria1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/industria1.svg" alt="" />
                             <p>Serviços de Caldeiraria e Solda na Indústria </p>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className='card3'>
-                        <a href="/servico"><img className='img-card' src="/img/alocacao1.svg" alt="" />
+                        <Link to="/servico"><img className='img-card' src="/img/alocacao1.svg" alt="" />
                             <p>Alocação de Mão de Obra Especializada</p>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
