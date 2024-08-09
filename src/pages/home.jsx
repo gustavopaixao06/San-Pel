@@ -42,7 +42,7 @@ export function Home() {
                             </p>
 
                             <div className="botao">
-                                <a href="/sobre"><button>Saiba mais!</button></a>
+                                <Link to="/sobre"><button>Saiba mais!</button></Link>
                             </div>
                         </div>
 
@@ -66,26 +66,26 @@ export function Home() {
                             <img className='imgServico' src="/img/caldeiraria.svg" alt="" style={imageStyle} />
                             <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
                             <div className="saibaMais">
-                                <a href="/nossosServicos">Saiba mais</a>
-                                <Link><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos">Saiba mais</Link>
+                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
                         <div className="card1">
                             <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
                             <p>Tanques e Tubulação de Diversas Finalidades</p>
-                            <Link className="saibaMais" to="/nossosServicos">
-                                <p>Saiba mais</p>
-                                <img src="/img/seta.svg" alt="" />
-                            </Link>
+                            <div className="saibaMais">
+                                <Link to="/nossosServicos">Saiba mais</Link>
+                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
+                            </div>
                         </div>
 
                         <div className="card1">
                             <img className='imgServico' src="/img/estrutura.svg" alt="" style={imageStyle} />
                             <p>Estruturas Metalicas em Geral</p>
                             <div className="saibaMais">
-                                <a href="/nossosServicos">Saiba mais</a>
-                                <Link><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos">Saiba mais</Link>
+                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
@@ -93,8 +93,8 @@ export function Home() {
                             <img className='imgServico' src="/img/equipamentos.svg" alt="" style={imageStyle} />
                             <p>Equipamentos Agrícolas</p>
                             <div className="saibaMais">
-                                <a href="/nossosServicos">Saiba mais</a>
-                                <Link><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos">Saiba mais</Link>
+                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ export function Home() {
                     </div>*/}
 
                     <div className="botao-servico">
-                        <a href="/nossosServicos"><button>Ver todos</button></a>
+                        <Link to="/nossosServicos"><button>Ver todos</button></Link>
                     </div>
 
                 </div>
