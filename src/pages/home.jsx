@@ -74,10 +74,10 @@ export function Home() {
                         <div className="card1">
                             <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
                             <p>Tanques e Tubulação de Diversas Finalidades</p>
-                            <div className="saibaMais">
-                                <a href="/nossosServicos">Saiba mais</a>
-                                <Link><img src="/img/seta.svg" alt="" /></Link>
-                            </div>
+                            <Link className="saibaMais" to="/nossosServicos">
+                                <p>Saiba mais</p>
+                                <img src="/img/seta.svg" alt="" />
+                            </Link>
                         </div>
 
                         <div className="card1">
