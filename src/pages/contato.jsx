@@ -54,34 +54,35 @@ export function Contato() {
                 <div class="form">
                     <form action="https://formsubmit.co/ajax/paixaogabriel246@gmail.com" method="POST">
                         <div class="conjunto">
-                            <div className="primeiraPart-forms">
-                            <div class="nome">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="nome" placeholder="Seu nome aqui*" required />
+                            <div class="primeiraPart-forms">
+                                <div class="input-wrapper">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome" placeholder="Seu nome aqui*" required />
+                                </div>
+                                <div class="input-wrapper">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="Seu email aqui*" required />
+                                </div>
                             </div>
-                            <div class="email">
-                                <label for="email">E-mail</label>
-                                <input type="email" name="email" id="email" required />
-                            </div>
-                            </div>
-                            <div className="segundaPart-forms">
-                            <div class="telefone">
-                                <label for="telefone">Telefone</label>
-                                <input type="tel" name="telefone" id="telefone" required />
-                            </div>
-                            <div class="assunto">
-                                <label for="assunto">Assunto</label>
-                                <input type="text" name="assunto" id="assunto" required />
-                            </div>
+                            <div class="segundaPart-forms">
+                                <div class="input-wrapper">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone aqui*" required />
+                                </div>
+                                <div class="input-wrapper">
+                                    <label for="assunto">Assunto</label>
+                                    <input type="text" name="assunto" id="assunto" placeholder="Assunto*" required />
+                                </div>
                             </div>
                             <div class="mensagem">
                                 <label for="mensagem">Mensagem</label>
-                                <textarea name="mensagem" id="mensagem" required></textarea>
+                                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
                             </div>
                             <button type="submit" id="botao">Enviar</button>
                         </div>
                     </form>
                 </div>
+
 
 
 
