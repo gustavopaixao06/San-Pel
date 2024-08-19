@@ -4,6 +4,14 @@ import '../assets/css/servico.css'
 
 
 export function Servico() {
+
+    const scrollToTop= () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    
     return (
         <>
             <section className='primeira-section-sobre'>
@@ -11,7 +19,7 @@ export function Servico() {
                 <img src="/img/imgSobre.svg" alt="" />
 
                 <div className="back-arrow">
-                    <a href="/nossosServicos"><img src="/img/backArrow.svg" alt="Back" /></a>
+                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/backArrow.svg" alt="Back" /></Link>
                 </div>
 
                 <div className="conheca-servico">
@@ -27,9 +35,12 @@ export function Servico() {
                 <div className='info-servico'>
 
                     <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,
-                        combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                    Na nossa empresa, oferecemos serviços de caldeiraria de alta qualidade, abrangendo projetos de leve,
+                     médio e grande porte. Com uma abordagem personalizada, atendemos uma ampla gama de indústrias,
+                      garantindo que cada projeto seja realizado com precisão, segurança e eficiência.
+                      Independente do porte do seu projeto, estamos prontos para oferecer soluções que combinam expertise técnica,
+                       inovação e compromisso com a qualidade. Trabalhamos lado a lado com nossos clientes, assegurando que cada serviço
+                        de caldeiraria seja concluído com precisão e dentro dos prazos estipulados.
                     </p>
 
                 </div>
@@ -61,7 +72,7 @@ export function Servico() {
                 </div>
 
                 <div className="botao-servico">
-                    <a href="/contato"><button>Faça seu orçamento</button></a>
+                    <Link to="/contato" onClick={scrollToTop}><button>Faça seu orçamento</button></Link>
                 </div>
             </section>
 

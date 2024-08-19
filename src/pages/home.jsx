@@ -9,6 +9,13 @@ export function Home() {
         opacity: 0.6 // Ajuste o valor conforme necessário
     };
 
+    const scrollToTop= () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
     return (
         <>
             <section className='primeira-secao'>
@@ -29,20 +36,19 @@ export function Home() {
 
                     <div className="descricao">
 
-                        <div className="soldador"><img src="/img/soldador.svg" alt="" /></div>
+                        <div className="soldador"><img src="/img/img1.jpg" alt="" /></div>
 
                         <div className="paragrafo">
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                                and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            Bem-vindo à nossa empresa de calderaria e solda, onde tradição e inovação se encontram
+                             para oferecer soluções robustas e de alta qualidade. Com anos de experiência no mercado,
+                              nos especializamos em fornecer serviços personalizados, atendendo às necessidades específicas
+                               de cada cliente, desde pequenos projetos até grandes empreendimentos industriais.
+                               
                             </p>
 
                             <div className="botao">
-                                <Link to="/sobre"><button>Saiba mais!</button></Link>
+                                <Link to="/sobre" onClick={scrollToTop}><button>Saiba mais!</button></Link>
                             </div>
                         </div>
 
@@ -66,8 +72,8 @@ export function Home() {
                             <img className='imgServico' src="/img/caldeiraria.svg" alt="" style={imageStyle} />
                             <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
                             <div className="saibaMais">
-                                <Link to="/nossosServicos">Saiba mais</Link>
-                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
@@ -75,8 +81,8 @@ export function Home() {
                             <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
                             <p>Tanques e Tubulação de Diversas Finalidades</p>
                             <div className="saibaMais">
-                                <Link to="/nossosServicos">Saiba mais</Link>
-                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
@@ -84,8 +90,8 @@ export function Home() {
                             <img className='imgServico' src="/img/estrutura.svg" alt="" style={imageStyle} />
                             <p>Estruturas Metalicas em Geral</p>
                             <div className="saibaMais">
-                                <Link to="/nossosServicos">Saiba mais</Link>
-                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
 
@@ -93,8 +99,8 @@ export function Home() {
                             <img className='imgServico' src="/img/equipamentos.svg" alt="" style={imageStyle} />
                             <p>Equipamentos Agrícolas</p>
                             <div className="saibaMais">
-                                <Link to="/nossosServicos">Saiba mais</Link>
-                                <Link to="/nossosServicos"><img src="/img/seta.svg" alt="" /></Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -138,7 +144,7 @@ export function Home() {
                     </div>*/}
 
                     <div className="botao-servico">
-                        <Link to="/nossosServicos"><button>Ver todos</button></Link>
+                        <Link to="/nossosServicos" onClick={scrollToTop}><button>Ver todos</button></Link>
                     </div>
 
                 </div>

@@ -19,23 +19,27 @@ export function Sobre() {
 
                 <div className="descricao-sobre">
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                        of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                        and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                        Bem-vindo à nossa empresa de calderaria e solda, onde tradição e inovação se
+                        encontram para oferecer soluções robustas e de alta qualidade. Com anos de
+                        experiência no mercado, nos especializamos em fornecer serviços personalizados,
+                        atendendo às necessidades específicas de cada cliente, desde pequenos projetos
+                        até grandes empreendimentos industriais.
+                        Nossa equipe é formada por profissionais altamente capacitados, comprometidos
+                         com a excelência em cada etapa do processo, desde o planejamento até a entrega 
+                         final. Utilizamos as mais avançadas técnicas de soldagem e calderaria, garantindo
+                          produtos duráveis, seguros e dentro das normas de qualidade mais rigorosas.
                     </p>
                 </div>
 
                 <div className='descricao-sobre-img'>
-                    <img src="/img/soldador-descricao.png" alt="" />
+                    <img src="/img/img3.jpg" alt="" />
                 </div>
             </section>
 
             <section className='terceira-section-sobre'>
 
                 <div className="img-terceira">
-                    <img src="/img/soldador-oferece.svg" alt="" />
+                    <img src="/img/img2.jpg" alt="" />
                 </div>
 
                 <div className="descricao-oferece">
@@ -61,7 +65,7 @@ export function Sobre() {
                         <span className="dot"></span>
                         <h4>Comunicação</h4>
                     </div>
-                    
+
                     <div className='oferece1'>
                         <span className="dot"></span>
                         <h4>Equipe qualificada</h4>

@@ -128,4 +128,10 @@
     cursor: pointer;
     color: blue;
     font-size: 1vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.botao-servico button:hover {
+    transform: scale(1.1);
 }
