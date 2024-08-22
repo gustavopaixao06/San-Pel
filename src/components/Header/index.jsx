@@ -13,13 +13,13 @@ export function Header() {
 
         // Adiciona a classe 'check' ao link correspondente à URL atual
         switch (currentPath) {
-            case '/home':
+            case '/':
                 document.getElementById('buttonHome')?.classList.add('check');
                 break;
             case '/sobre':
                 document.getElementById('buttonSobre')?.classList.add('check');
                 break;
-            case '/servico':
+            case '/nossosServicos':
                 document.getElementById('buttonServiços')?.classList.add('check');
                 break;
             case '/contato':
@@ -33,7 +33,7 @@ export function Header() {
 
     const showMenuMobile = () => {
         const menuMobile = document.querySelector('.mobile-click');
-
+        
         let menuStatus = 0
 
         if (menuStatus === 0) {
@@ -64,7 +64,7 @@ export function Header() {
                         </nav>
 
                         <figure className='logo'>
-                            <Link to="/"><img src="/img/logo-sanpel.svg" alt="Logo" /></Link>
+                            <img src="/img/logo-sanpel.svg" alt="Logo" />
                         </figure>
 
                         <nav className='menu-right'>

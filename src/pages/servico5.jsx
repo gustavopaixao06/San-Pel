@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
-import '../assets/css/servico.css'
+import '../assets/css/servico5.css'
 
 
-export function Servico() {
+export function Servico5() {
 
-    const scrollToTop= () => {
+    const scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     }
-    
+
     return (
         <>
             <section className='primeira-section-sobre'>
@@ -22,9 +22,9 @@ export function Servico() {
                     <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/backArrow.svg" alt="Back" /></Link>
                 </div>
 
-                <div className="conheca-servico">
-                    <h1>Serviços de Caldeiraria Leve, Médio e Grande Porte</h1>
-                    <div className="linhaConheca-servico"></div>
+                <div className="conheca-servico5">
+                    <h1>Serviços de Cadeiraria e Solda na Indústria</h1>
+                    <div className="linhaConheca-servico5"></div>
                     <h3>Excelência e inovação em cada detalhe</h3>
                 </div>
 
@@ -35,12 +35,12 @@ export function Servico() {
                 <div className='info-servico'>
 
                     <p>
-                    Na nossa empresa, oferecemos serviços de caldeiraria de alta qualidade, abrangendo projetos de leve,
-                     médio e grande porte. Com uma abordagem personalizada, atendemos uma ampla gama de indústrias,
-                      garantindo que cada projeto seja realizado com precisão, segurança e eficiência.
-                      Independente do porte do seu projeto, estamos prontos para oferecer soluções que combinam expertise técnica,
-                       inovação e compromisso com a qualidade. Trabalhamos lado a lado com nossos clientes, assegurando que cada serviço
-                        de caldeiraria seja concluído com precisão e dentro dos prazos estipulados.
+                        Os serviços de cadeiraria e solda são fundamentais na indústria, desempenhando papéis essenciais na manutenção,
+                        reparo e fabricação de equipamentos e estruturas. A cadeiraria envolve a restauração e personalização de assentos
+                        e móveis industriais, garantindo conforto e durabilidade. A solda, por sua vez, une metais e materiais termoplásticos,
+                        sendo crucial na construção e reparo de estruturas metálicas e equipamentos. Esses serviços são vitais para a 
+                        segurança, funcionalidade e eficiência das operações industriais, contribuindo para a longevidade e adaptabilidade 
+                        dos componentes industriais.
                     </p>
 
                 </div>

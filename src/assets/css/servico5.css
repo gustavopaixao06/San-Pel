@@ -1,0 +1,30 @@
+.linhaConheca-servico5 {
+    width: 40vw;
+    border-top: 0.15vw solid #FDC204;
+    border-radius: 0.078125vw;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+
+.conheca-servico5{
+    margin-left: 28vw;
+    text-align: center;
+    position: absolute;
+    top: 7vw;
+    z-index: 1;
+}
+
+
+.conheca-servico5 h1, h3{
+    text-align: center;
+}   
+
+.conheca-servico5 h1{
+    color: white;
+    font-size: 2vw;
+}
+
+.conheca-servico5 h3{
+    color: #afa2a2;
+    font-size: 1vw;
+}

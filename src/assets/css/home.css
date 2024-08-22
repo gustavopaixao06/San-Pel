@@ -86,7 +86,7 @@ a {
 }
 
 .paragrafo p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     width: 70%;
     margin-bottom: 4vw;
 }
@@ -131,7 +131,7 @@ a {
 .servicos p {
     color: #2B3570;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 /* Estilizando cards */
@@ -155,6 +155,14 @@ a {
     display: block;
 }
 
+.imgServico1 {
+    width: 20vw;
+    height: 11vw;
+    display: block;
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;  
+}
+
 .card1 {
     width: 20vw;
     position: relative;
@@ -165,7 +173,7 @@ a {
     position: absolute;
     top: 4vw;
     left: 4vw;
-    color: black;
+    color: white;
     font-size: 1vw;
     z-index: 1;
     text-align: center;
@@ -180,11 +188,25 @@ a {
     font-size: 0.8vw;
 }
 
+.saibaMais1 {
+    width: 20vw;
+    background-color: #2B3570;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    padding: 1vw;
+    font-size: 0.8vw;
+}
+
 .saibaMais img {
     margin-left: 13vw;
     width: 0.5vw;
+    
 }
 
+.saibaMais1 img {
+    margin-left: 13vw;
+    width: 0.5vw;
+}
 
 /* part2 */
 
@@ -233,7 +255,7 @@ a {
 .fornecedores {
     display: flex;
     width: calc(36.807291666666664vw * 16);
-    animation: scroll 13s linear infinite;
+    animation: scroll s linear infinite;
 }
 
 .samsung {
@@ -241,7 +263,7 @@ a {
 }
 
 .samsung:hover {
-    border-color: #FFFF;
+    border-color: #FDC204;
 }
 
 .fornecedores:hover {
@@ -259,6 +281,7 @@ a {
 }
 
 .samsung {
+    border: 0.1vw solid #051D3C;
     height: 13.020833333333334vw;
     width: 16.276041666666668vw;
     display: flex;
@@ -269,6 +292,11 @@ a {
 
 .samsung {
     transition: 0.5s;
+}
+
+#dexco {
+    width: 15vw;
+    
 }
 
 .projetos-realizados h2 {
@@ -299,3 +327,32 @@ a {
     justify-content: space-between;
     margin: 0 auto;
 }
+
+.fixed-bottom {
+    z-index: 6;
+    left: initial;
+    top: 20vw;
+
+    
+}
+
+#botaoFixo {
+    display: flex;
+    flex-direction: column;
+}
+
+#botaoFixo > img {
+
+    margin-bottom: 0.2vw;
+    width: 3.5vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+#botaoFixo > img:hover {
+
+    transform: scale(1.1);
+
+}
+

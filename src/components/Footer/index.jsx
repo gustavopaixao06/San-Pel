@@ -17,19 +17,19 @@ export function Footer() {
                     </figure>
 
                     <div className="info">
-                        <p>Oferecendo serviços de alta qualidade para diversos setores desde 2020.</p>
+                        <p>Oferecendo serviços de alta qualidade para diversos setores desde 2022.</p>
                     </div>
 
                     <div className="info-localizacao">
                         <img src="/img/localizao.svg" alt=""/>
-                        <p>Rua, Número, Bairro, Cidade, Estado, CEP</p>
+                        <p>Avenida Nisshimbo do Brasil 2113, vila Camarão, Itapetininga -SP Cep 18205-720</p>
                     </div>
 
 
                     <div className="icons">
-                        <a href="" target='_blank'><img src={Face} alt="" /></a>
-                        <a href="" target='_blank'><img src={Whatsapp} alt="" /></a>
-                        <a href="" target='_blank'><img src={Instagram} alt="" /></a>
+                        <a href="https://m.facebook.com/61550339120073/" target='_blank'><img src={Face} alt="" /></a>
+                        <a href="https://web.whatsapp.com/send?phone=5515981061909" target="_blank"><img src={Whatsapp} alt="" /></a>
+                        <a href="https://www.instagram.com/sanpel.caldeiraria/" target='_blank'><img src={Instagram} alt="" /></a>
                     </div>
 
                 </div>

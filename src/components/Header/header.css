@@ -30,10 +30,17 @@ header>.centro {
 
 }
 
+
 .menu-desktop a {
     text-decoration: none;
     color: white;
     position: relative;
+}
+
+
+
+.menu-desktop a:hover::after {
+    width: 100%;
 }
 
 .menu-desktop li {
@@ -46,8 +53,15 @@ header>.centro {
 
 }
 
+.check {
+    text-decoration: underline  #FFCC00 !important;
+
+}
+
+
 .nav-item {
     padding-right: 10vw;
 }
+
 
 

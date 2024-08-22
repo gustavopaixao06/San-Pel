@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
-import '../assets/css/servico.css'
+import '../assets/css/servico4.css'
 
 
-export function Servico() {
+export function Servico4() {
 
-    const scrollToTop= () => {
+    const scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     }
-    
+
     return (
         <>
             <section className='primeira-section-sobre'>
@@ -22,9 +22,9 @@ export function Servico() {
                     <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/backArrow.svg" alt="Back" /></Link>
                 </div>
 
-                <div className="conheca-servico">
-                    <h1>Serviços de Caldeiraria Leve, Médio e Grande Porte</h1>
-                    <div className="linhaConheca-servico"></div>
+                <div className="conheca-servico4">
+                    <h1>Equipamentos Agrícolas</h1>
+                    <div className="linhaConheca-servico4"></div>
                     <h3>Excelência e inovação em cada detalhe</h3>
                 </div>
 
@@ -35,12 +35,12 @@ export function Servico() {
                 <div className='info-servico'>
 
                     <p>
-                    Na nossa empresa, oferecemos serviços de caldeiraria de alta qualidade, abrangendo projetos de leve,
-                     médio e grande porte. Com uma abordagem personalizada, atendemos uma ampla gama de indústrias,
-                      garantindo que cada projeto seja realizado com precisão, segurança e eficiência.
-                      Independente do porte do seu projeto, estamos prontos para oferecer soluções que combinam expertise técnica,
-                       inovação e compromisso com a qualidade. Trabalhamos lado a lado com nossos clientes, assegurando que cada serviço
-                        de caldeiraria seja concluído com precisão e dentro dos prazos estipulados.
+                        A produção e reforma de equipamentos agrícolas são essenciais para manter a eficiência e a 
+                        longevidade das operações no campo. A produção envolve o uso de materiais de alta qualidade e 
+                        tecnologia avançada para fabricar máquinas robustas e eficientes, como tratores e colheitadeiras. 
+                        A reforma, por sua vez, prolonga a vida útil dos equipamentos, substituindo peças desgastadas e atualizando
+                        sistemas. Ambas as práticas garantem máquinas confiáveis, reduzem custos e promovem a sustentabilidade, contribuindo 
+                        para o aumento da produtividade agrícola e a continuidade das operações.
                     </p>
 
                 </div>
