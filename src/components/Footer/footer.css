@@ -69,3 +69,49 @@
 .info-localizacao > p {
     text-align: center;
 }
+
+
+/* --------------------Versão mobile */
+
+@media only screen and (max-width: 600px) {
+
+    .logo-footer img {
+        width: 18vw;
+    }
+
+    .info > p {
+        font-size: 1.7vw;
+    }
+
+    .footer {
+        padding: 2vw 0vw 2vw 0vw;
+        align-items: center;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        color: white;
+    }
+
+    .info-localizacao > p {
+        font-size: 1.7vw;
+    }
+
+    .info-localizacao > img {
+        width: 2vw;
+    }
+
+    .icons img {
+        width: 4vw;
+    }
+
+    .fundo p {
+        margin-top: 1vw;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.5vw;
+    }   
+
+}
+
