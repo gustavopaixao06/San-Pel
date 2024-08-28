@@ -255,7 +255,7 @@ a {
 .fornecedores {
     display: flex;
     width: calc(36.807291666666664vw * 16);
-    animation: scroll s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .samsung {
@@ -281,7 +281,7 @@ a {
 }
 
 .samsung {
-    border: 0.1vw solid #051D3C;
+    border: 0.1vw solid white;
     height: 13.020833333333334vw;
     width: 16.276041666666668vw;
     display: flex;
@@ -294,9 +294,32 @@ a {
     transition: 0.5s;
 }
 
+#silvicultura{
+    width: 13vw;
+}
+
+#castrolandia{
+    width: 13vw;
+}
+
+#bekaert{
+    width: 13vw;
+}
+
+#pontencial{
+    width: 15vw;
+    transform: translateX(-1vw);
+}
+
 #dexco {
     width: 15vw;
+    transform: translateX(-1vw);
     
+}
+
+#uniarea{
+    width: 15vw;
+    transform: translateX(-1vw);
 }
 
 .projetos-realizados h2 {

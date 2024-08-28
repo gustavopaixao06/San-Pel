@@ -79,6 +79,46 @@ export function Header() {
                         </nav>
                     </div>
                 </div>
+
+                <div className='centro-mobile'>
+                    <figure className='logo-mobile'>
+                        <Link to="/"><img src="/img/logo-sanpel.svg" alt="Logo" /></Link>
+                    </figure>
+
+                    <figure className="menu-sanduiche">
+                        <Link onClick={showMenuMobile} aria-label="Open Menu">
+                            <img src="/img/menu-sanduiche.svg" alt="Menu" />
+                        </Link>
+                    </figure>
+                </div>
+
+                <div className="mobile-click">
+                    <div className="navegacao-mobile">
+                        <div className="mobile-exit">
+                            <Link onClick={showMenuMobile} aria-label="Open Menu">
+                                <img src="/img/exit.svg" alt="Menu" />
+                            </Link>
+                        </div>
+
+                        <nav className='menu-mobile'>
+                            <ul>
+                                <li>
+                                    <Link onClick={showMenuMobile} to="/" className="nav-item" id="buttonHome">Home</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={showMenuMobile} to="/sobre" className="nav-item" id="buttonSobre">Sobre</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={showMenuMobile} to="/NossosServicos" className="nav-item" id="buttonServiços">Serviços</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={showMenuMobile} to="/contato" className="nav-item" id="buttonContato">Contato</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
             </header>
         </>
     );

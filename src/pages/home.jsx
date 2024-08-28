@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import dexco from '../../public/img/dexco.svg'
+import uniarea from '../../public/img/uniarea.svg'
+import bekaert from '../../public/img/bekaert.svg'
+import castrolandia from '../../public/img/castrolandia.svg'
+import silvicultura from '../../public/img/silvicultura.svg'
 import '../assets/css/home.css'
 import whatsapp from "/img/whatsapp-icon.png";
 import instagram from "/img/instagram-icon.svg";
-
 
 
 
@@ -176,7 +179,7 @@ export function Home() {
 
                     <div className="fornecedores">
                         <div className="samsung">
-                            <a href="https://www.samsung.com/br/offer/?utm_source=google&utm_medium=ppc&utm_campaign=br_pd_ppc_google_multi-multi_ecommerce_cad3-a0009-mx-institucional_text_multi-aon_paid-cdm-pfm-ID92363434203-*samsung*&utm_content=text&utm_term=samsung&cid=br_pd_ppc_google_multi-multi_ecommerce_cad3-a0009-mx-institucional_text_multi-aon_paid-cdm-pfm-ID92363434203-*samsung*&keeplink=true&gad_source=1&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVCoXBQeDjeH22CbYO2DIL9nergcvq8ps9E15poJ6SVxGFJyH5TMINxoCJEMQAvD_BwE" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="" target='_blank'><img id='bekaert' src={bekaert} alt="" /></a>
                         </div>
 
                         <div className="samsung">
@@ -184,19 +187,19 @@ export function Home() {
                         </div>
 
                         <div className="samsung">
-                            <a href="https://sonos.com.br/" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="https://sonos.com.br/" target='_blank'><img id='pontencial' src={potencial} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://www.crestron.com/" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="https://www.crestron.com/" target='_blank'><img id='uniarea' src={uniarea} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://br.yamaha.com/pt/products/audio_visual/index.html" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="https://br.yamaha.com/pt/products/audio_visual/index.html" target='_blank'><img id='castrolandia' src={castrolandia} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://www.stealthacoustics.com/" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="https://www.stealthacoustics.com/" target='_blank'><img id='silvicultura' src={silvicultura} alt="" /></a>
                         </div>
 
                         <div className="samsung">
