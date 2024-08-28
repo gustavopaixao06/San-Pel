@@ -157,7 +157,7 @@ header>.centro {
     }
 
     .menu-sanduiche {
-        margin-top: 3vw;
+        margin-top: 6vw;
     }
 
     .home {
@@ -168,8 +168,8 @@ header>.centro {
         display: block !important;
     }
 
-    .logo img {
-        width: 18vw;
+    .logo-mobile img {
+        width: 20vw;
     }
     
     .menu-sanduiche img {
