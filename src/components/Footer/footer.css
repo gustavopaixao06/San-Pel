@@ -55,6 +55,7 @@
 
 .icons img {
     width: 2vw;
+    transition: transform 0.3s ease;
 }
 
 .icons img:hover {

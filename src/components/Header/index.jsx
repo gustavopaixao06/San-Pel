@@ -58,7 +58,7 @@ export function Header() {
                                     <Link to="/" className="nav-item" id="buttonHome">Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="/sobre" className="" id="buttonSobre">Sobre</Link>
+                                    <Link to="/sobre" className="nav-item" id="buttonSobre">Sobre</Link>
                                 </li>
                             </ul>
                         </nav>
@@ -73,7 +73,7 @@ export function Header() {
                                     <Link to="/nossosServicos" className="nav-item" id="buttonServiços">Serviços</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contato" className="" id="buttonContato">Contato</Link>
+                                    <Link to="/contato" className="nav-item" id="buttonContato">Contato</Link>
                                 </li>
                             </ul>
                         </nav>

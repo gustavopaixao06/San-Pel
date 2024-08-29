@@ -25,6 +25,12 @@ a {
     font-size: 1.8vw;
 }
 
+#imgSoldador{
+    width: 5vw;
+    margin-top: -4.5vw;
+    transform: translateX(-0.2vw);
+}
+
 .info-home>p {
     width: 47%;
     color: white;
@@ -255,11 +261,13 @@ a {
 .fornecedores {
     display: flex;
     width: calc(36.807291666666664vw * 16);
-    animation: scroll 20s linear infinite;
+    animation: scroll 13s linear infinite;
 }
 
 .samsung {
     margin-right: 6.510416666666667vw;
+    background-color: white;
+    border-radius: 0.5vw;
 }
 
 .samsung:hover {
@@ -276,7 +284,7 @@ a {
     }
 
     100% {
-        transform: translateX(calc(-16.276041666666668vw * 6.4));
+        transform: translateX(calc(-14.276041666666668vw * 6.4));
     }
 }
 
@@ -378,4 +386,175 @@ a {
     transform: scale(1.1);
 
 }
+
+.part1-mobile {
+    display: none !important;
+}
+
+/* --------------------Versão mobile */
+
+@media only screen and (max-width: 600px) {
+
+    .part1-mobile {
+        display: block !important;
+    }
+
+    .part1 {
+        display: none !important;
+    }
+    
+    .fixed-bottom {
+        display: none !important ;
+    }
+
+    .info-home>h1 {
+        color: white;
+        font-size: 4vw;
+    }   
+
+    .info-home {
+        position: absolute;
+        top: 7vw;
+        left: 10vw;
+        z-index: 1;
+    }
+
+    .info-home>p {
+        width: 80%;
+        color: white;
+        font-size: 2.5vw;
+        margin-top: 2vw;
+    }
+
+    .primeira-secao>img {
+        width: 130vw;
+        display: block;
+    }
+
+    .soldador {
+        display: none;
+    }
+
+    .paragrafo p {
+        font-size: 2.5vw;
+        width: 100%;
+        margin-bottom: 4vw;
+        text-align: center;
+    }
+
+    .paragrafo {
+        width: 90%;
+    }
+
+    .sobreHome h1 {
+        font-size: 4vw;
+    }
+
+    .linhaSobre {
+        width: 20vw;
+        border-top: 0.3vw solid #FDC204;
+        border-radius: 0.078125vw;
+        margin: auto;
+        margin-bottom: 3vw;
+    }
+
+    .botao button {
+        font-size: 2.5vw;
+        border-radius: 1vw
+    }
+
+    .botao {
+        text-align: center;
+    }
+
+    .servicos h1 {
+        font-size: 4vw;
+    }
+
+    .linhaServico {
+        width: 35vw;
+        border-top: 0.3vw solid #FDC204;
+        border-radius: 0.078125vw;
+        margin: auto;
+        margin-bottom: 3vw;
+    }
+
+    .card1 {
+        width: 20vw;
+        position: relative;
+    }
+
+    .part1-mobile {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .servicos p {
+        color: #2B3570;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .botao-servico button {
+        border-radius: 1vw;
+        font-size: 2.5vw;
+    }
+
+    .clientes h2 {
+        font-size: 4vw;
+        margin-left: 10vw;
+    }
+
+    .linhaClientes {
+        width: 35vw;
+        margin-left: 10vw;
+        margin-bottom: 4vw;
+    }
+
+    .botao-servico button {
+        background-color: #FDC204;
+        border-radius: 1vw;
+        border: none;
+        padding: 0.5vw 4vw;
+        cursor: pointer;
+        color: blue;
+        font-size: 2.5vw;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .samsung {
+        border: 0.1vw solid white;
+        height: 15.020833333333334vw;
+        width: 20.276041666666668vw;
+        display: flex;
+        align-items: center;
+        padding: 0.6510416666666666vw 0 0 1.6276041666666667vw;
+        perspective: 6.510416666666667vw;
+    }
+    
+    #dexco,
+    #pontencial,
+    #bekaert,
+    #castrolandia,
+    #silvicultura,
+    #uniarea {
+        width: 19vw;
+        transform: translateX(-1vw);
+    }
+
+    .projetos-realizados > h2 {
+        font-size: 4vw;
+    }
+
+    .linhaProjetos {
+        width: 45vw;
+        margin-left: 27vw;
+    }
+
+    .projetos > img {
+        width: 90vw;
+    }
+}
+
 

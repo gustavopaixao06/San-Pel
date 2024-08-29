@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import dexco from '../../public/img/dexco.svg'
 import uniarea from '../../public/img/uniarea.svg'
+import imgSoldador from '../../public/img/imgSoldador.svg'
 import bekaert from '../../public/img/bekaert.svg'
 import castrolandia from '../../public/img/castrolandia.svg'
 import silvicultura from '../../public/img/silvicultura.svg'
@@ -31,11 +32,11 @@ export function Home() {
 
                 <img src="/img/img-1.svg" alt="" />
                 <div className='info-home'>
-                    <h1>Excelência em qualidade e ponto</h1>
+                    <h1>Excelência em qualidade e pont <img src={imgSoldador} alt="" id='imgSoldador' /></h1>
                     <div className="linha-home"></div>
-                    <p>Na <span style={{ color: '#FDC204' }}>San Pel</span>, somos especialistas em caldeiraria e solda, oferecendo soluções de alta qualidade e precisão para atender às necessidades dos nossos clientes.</p>
+                    <p>Na <span style={{ color: '#FDC204' }}>SAN PEL</span>, somos especialistas em caldeiraria e solda, oferecendo soluções de alta qualidade e precisão para atender às necessidades dos nossos clientes.</p>
                 </div>
-            </section>
+            </section> 
 
             <section className='segunda-secao'>
 
@@ -121,6 +122,58 @@ export function Home() {
                             </div>
                         </Link>
                     </div>
+
+
+                    <div className="part1-mobile">
+
+                        <div>
+                            <Link to="/nossosServicos" onClick={scrollToTop}>
+                                <div className="card1">
+                                    <img className='imgServico1' src="/img/calderaria.jpg" alt="" style={imageStyle} />
+                                    <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                    <div className="saibaMais1">
+                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
+                                    </div>
+                                </div>
+                            </Link>
+
+                            <Link to="/nossosServicos" onClick={scrollToTop}>
+                                <div className="card1">
+                                    <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
+                                    <p>Tanques e Tubulação de Diversas Finalidades</p>
+                                    <div className="saibaMais">
+                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div>
+                            <Link to="/nossosServicos" onClick={scrollToTop}>
+                                <div className="card1">
+                                    <img className='imgServico' src="/img/estrutura.svg" alt="" style={imageStyle} />
+                                    <p>Estruturas Metalicas em Geral</p>
+                                    <div className="saibaMais">
+                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
+                                    </div>
+                                </div>
+                            </Link>
+
+                            <Link to="/nossosServicos" onClick={scrollToTop}>
+                                <div className="card1">
+                                    <img className='imgServico' src="/img/equipamentos.svg" alt="" style={imageStyle} />
+                                    <p>Equipamentos Agrícolas</p>
+                                    <div className="saibaMais">
+                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
                     {/* 
                     <div className="part2">
                         <div className="card1">
@@ -183,35 +236,35 @@ export function Home() {
                         </div>
 
                         <div className="samsung">
-                            <a href="https://waveone.com.br/" target='_blank'><img src={dexco} alt="" id='dexco' /></a>
+                            <a href="" target='_blank'><img src={dexco} alt="" id='dexco' /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://sonos.com.br/" target='_blank'><img id='pontencial' src={potencial} alt="" /></a>
+                            <a href="" target='_blank'><img id='pontencial' src={potencial} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://www.crestron.com/" target='_blank'><img id='uniarea' src={uniarea} alt="" /></a>
+                            <a href="" target='_blank'><img id='uniarea' src={uniarea} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://br.yamaha.com/pt/products/audio_visual/index.html" target='_blank'><img id='castrolandia' src={castrolandia} alt="" /></a>
+                            <a href="" target='_blank'><img id='castrolandia' src={castrolandia} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://www.stealthacoustics.com/" target='_blank'><img id='silvicultura' src={silvicultura} alt="" /></a>
+                            <a href="" target='_blank'><img id='silvicultura' src={silvicultura} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://aataudio.com.br/" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="" target='_blank'><img id='bekaert' src={potencial} alt="" /></a>
                         </div>
 
                         <div className="samsung">
-                            <a href="https://originacoustics.com/" target='_blank'><img src={potencial} alt="" /></a>
+                            <a href="" target='_blank'><img id='bekaert' src={potencial} alt="" /></a>
                         </div>
                     </div>
 
-                  
+
 
 
                 </div> {/* fechando div caroucel */}

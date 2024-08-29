@@ -118,6 +118,9 @@ header>.centro {
     padding: 2vw 0vw 0vw 5vw;
 }
 
+.menu-right{
+    transform: translateX(8vw);
+}
 
 
 .mobile-exit {

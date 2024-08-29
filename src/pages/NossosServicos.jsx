@@ -26,7 +26,7 @@ export function NossosServicos() {
             <section className='segunda-section-servicos'>
 
                 <div className='descricao-servicos'>
-                    <h1>A San Pel oferece tudo que você precisa!!</h1>
+                    <h1>A SAN PEL oferece tudo que você precisa!!</h1>
                 </div>
 
                 <div className='info-servicos'>

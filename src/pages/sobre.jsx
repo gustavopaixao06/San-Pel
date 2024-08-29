@@ -43,7 +43,7 @@ export function Sobre() {
                 </div>
 
                 <div className="descricao-oferece">
-                    <h2>A San Pel oferece :</h2>
+                    <h2>A SAN PEL oferece :</h2>
                     <div className="linhaClientes-sobre"></div>
 
                     <div className='oferece'>
