@@ -69,11 +69,11 @@ header>.centro {
 }
 
 .navegacao-mobile {
-    width: 60%;
+    width: 50%;
     background-color: #25306d;
     position: absolute;
     right: 0;
-    height: 70vh;
+    height: 50vh;
     z-index: 10;
     top: 0;
 }
@@ -88,7 +88,7 @@ header>.centro {
 .menu-mobile a {
     text-decoration: none;
     color: white;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 .menu-mobile li {

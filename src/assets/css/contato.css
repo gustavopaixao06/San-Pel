@@ -204,8 +204,57 @@ textarea {
     cursor: pointer;
     border-radius:  0.2604166666666667vw;
     transition: background-color 0.3s;
+    margin-bottom: 3vw;
 }
 
 #botao:hover {
     background-color: #e6b800;
 }
+
+.quarta-secao-contato{
+    width: 100%;
+    background-color: white;
+    height: 30vw;
+}
+
+.curriculo h1{
+    color: #263370;
+    font-size: 2vw;
+    text-align: center;
+    transform: translateY(3vw);
+}
+
+.linhaConheca-curriculo{
+    transform: translateY(3vw);
+    width: 20vw;
+    border-top: 0.15vw solid #FDC204;
+    border-radius: 0.078125vw;
+    margin: auto;
+}
+
+.curriculo h3{
+    color: #263370;
+    font-size: 1.5vw;
+    text-align: center;
+    transform: translateY(4vw);
+}
+
+.upload-input {
+    margin-top: 10vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid#2A3D81;
+    background-color: white;
+    color: #2A3D81;
+    cursor: pointer;
+    
+  }
+  
+  .upload-input::file-selector-button {
+    background-color: #2A3D81;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

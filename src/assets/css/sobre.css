@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.primeira-section-sobre > img{
+.primeira-section-sobre>img {
     width: 100%;
 }
 
@@ -15,23 +15,24 @@
     z-index: 1;
 }
 
-.conheca-sobre h1, h3{
+.conheca-sobre h1,
+h3 {
     text-align: center;
 }
 
-.conheca-sobre h1{
+.conheca-sobre h1 {
     color: white;
     font-size: 2vw;
 }
 
-.conheca-sobre h3{
+.conheca-sobre h3 {
     color: #afa2a2;
     font-size: 1vw;
 }
 
 .linhaConheca {
     width: 20vw;
-    border-top: 0.15vw solid  #FDC204;
+    border-top: 0.15vw solid #FDC204;
     border-radius: 0.078125vw;
     margin: auto;
     margin-bottom: 1vw;
@@ -50,10 +51,10 @@
     width: 45%;
 }
 
-.descricao-sobre > p {
+.descricao-sobre>p {
     font-size: 1.2vw;
     color: white;
-}   
+}
 
 .descricao-sobre-img {
     width: 40%;
@@ -126,4 +127,93 @@
 
 .terceira-section-sobre {
     margin-bottom: 5vw;
+}
+
+/* --------------------Versão mobile */
+
+@media only screen and (max-width: 600px) {
+
+    .conheca-sobre h1 {
+        font-size: 4vw;
+    }
+
+    .conheca-sobre h3 {
+        font-size: 2.5vw;
+    }
+
+    .conheca-sobre {
+        margin-left: 30vw;
+        text-align: center;
+        position: absolute;
+        top: 7vw;
+        z-index: 1;
+    }
+
+    .primeira-section-sobre>img {
+        width: 130vw;
+    }
+
+    .segunda-section-sobre {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .descricao-sobre {
+        width: 100%;
+        text-align: center;
+    }
+
+    .descricao-sobre>p {
+        font-size: 2.2vw;
+        color: white;
+    }
+
+    .descricao-sobre-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .descricao-sobre-img img {
+        width: 100%;
+    }
+
+    .descricao-oferece h2 {
+        color: #FDC204;
+        font-size: 4vw;
+    }
+    
+    .oferece1 h4,
+    .oferece h4 {
+        color: white;
+        font-size: 3vw;
+    }
+
+    .dot {
+        margin-top: 0.4vw;
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    .terceira-section-sobre {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 5vw;
+    }
+
+    .img-terceira {
+        width: 50%;
+        margin-bottom: 5vw;
+    }
+
+    .img-terceira > img {
+        width: 40vw;
+    }
+
+
+
 }

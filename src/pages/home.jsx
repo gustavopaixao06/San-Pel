@@ -213,7 +213,7 @@ export function Home() {
                         </div>
                     </div>*/}
 
-                    <div className="botao-servico">
+                    <div className="botao">
                         <Link to="/nossosServicos" onClick={scrollToTop}><button>Ver todos</button></Link>
                     </div>
 

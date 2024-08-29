@@ -39,7 +39,7 @@ a {
 }
 
 .linha-home {
-    width: 27vw;
+    width: 31vw;
     border-bottom: 0.15vw solid #FDC204;
     border-radius: 0.078125vw;
 }
@@ -300,6 +300,11 @@ a {
 
 .samsung {
     transition: 0.5s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.samsung:hover{
+    transform: scale(1.1);
 }
 
 #silvicultura{
@@ -414,7 +419,7 @@ a {
 
     .info-home {
         position: absolute;
-        top: 7vw;
+        top: 9vw;
         left: 10vw;
         z-index: 1;
     }
@@ -496,10 +501,6 @@ a {
         font-size: 2.5vw;
     }
 
-    .botao-servico button {
-        border-radius: 1vw;
-        font-size: 2.5vw;
-    }
 
     .clientes h2 {
         font-size: 4vw;
@@ -512,16 +513,7 @@ a {
         margin-bottom: 4vw;
     }
 
-    .botao-servico button {
-        background-color: #FDC204;
-        border-radius: 1vw;
-        border: none;
-        padding: 0.5vw 4vw;
-        cursor: pointer;
-        color: blue;
-        font-size: 2.5vw;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+    
 
     .samsung {
         border: 0.1vw solid white;
@@ -555,6 +547,13 @@ a {
     .projetos > img {
         width: 90vw;
     }
+
+    #imgSoldador {
+        width: 9vw;
+        margin-top: -8vw;
+        transform: translateX(-0.2vw);
+    }
+
 }
 
 
