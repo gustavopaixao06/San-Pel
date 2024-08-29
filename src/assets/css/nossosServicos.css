@@ -112,3 +112,97 @@
     width: 25vw;
     display: block;
 }
+
+.terceira-section-servicos-mobile {
+    display: none;
+}
+
+
+/* --------------------Versão mobile */
+
+@media only screen and (max-width: 600px) {
+
+    .terceira-section-servicos-mobile {
+        display: block !important;
+    }
+
+    .terceira-section-servicos {
+        display: none;
+    }
+
+    .conheca-servicos h1 {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .conheca-servicos h3 {
+        color: #afa2a2;
+        font-size: 2.5vw;
+    }
+
+    .conheca-servicos {
+        margin-left: 20vw;
+    }
+
+    .primeira-section-servicos > img {
+        width: 130vw;
+    }
+
+    .descricao-servicos {
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    .descricao-servicos h1 {
+        color: #FDC204;
+        font-size: 3.5vw;
+    }
+
+    .info-servicos p {
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    .info-servicos {
+        width: 85%;
+    }
+
+    .terceira-section-servicos-mobile {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 5vw;
+    }
+
+
+    .img-card {
+        width: 80%;
+    }
+
+    .card3{
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        left: 8vw;
+        margin-top: 5vw;
+    }
+     
+    .card3  p {
+        width: 60%;
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+        color: white;
+        font-size: 3vw;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .card3 p:hover {
+        color: #FDC204;
+        transition: 0.5s ease;
+    }
+
+}
