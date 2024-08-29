@@ -135,3 +135,32 @@
 .botao-servico button:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+
+    .conheca-servico h1{
+        font-size: 3vw;
+        
+    }
+
+    .conheca-servico h3{
+        font-size: 2vw;
+    }
+
+    .info-servico p {
+        font-size: 2vw;
+    }
+
+    .topico h4{
+        font-size: 2vw;
+    }
+
+    .topicos-servico{
+        width: 100%;
+    }
+
+    .part1-topico{
+        width: 100vw;
+        
+    }
+}

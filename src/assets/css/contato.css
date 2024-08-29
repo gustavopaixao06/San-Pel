@@ -241,9 +241,9 @@ textarea {
 
 .upload-input {
     margin-top: 10vw;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid#2A3D81;
+    padding: 0.6489292667099286vw;
+    border-radius: 0.3244646333549643vw;
+    border: 0.06489292667099286vw solid#2A3D81;
     background-color: white;
     color: #2A3D81;
     cursor: pointer;
@@ -254,7 +254,102 @@ textarea {
     background-color: #2A3D81;
     color: white;
     border: none;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 1.2978585334198571vw;
+    border-radius: 0.3244646333549643vw;
     cursor: pointer;
   }
+  
+/* --------------------Versão mobile */
+
+@media only screen and (max-width: 600px) {
+
+    .conheca-contato h1 {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .conheca-contato h3 {
+        color: #afa2a2;
+        font-size: 2.5vw;
+    }
+
+    .conheca-contato {
+        margin-left: 34vw;
+    }
+
+    .linhaConheca-contato {
+        width: 27vw;
+        border-top: 0.15vw solid #FDC204;
+        border-radius: 0.078125vw;
+        margin: auto;
+        margin-bottom: 1vw;
+    }
+    
+    .segunda-secao-contato {
+        width: 100%;
+    }
+
+    .cartContato {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3vw;
+    }
+
+    .primeiraPart-what p {
+        margin-top: 1vw;
+        font-size: 3.5vw;
+    }
+
+    .primeiraPart-what img {
+        width: 4vw;
+        margin-top: -2vw;
+        margin-right: 1.5vw;
+    }
+
+    .primeiraPart-what1 img {
+        width: 4vw;
+        margin-top: -2vw;
+        margin-right: 1.5vw;
+    }
+
+    .segundaPart-what p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .segundaPart-what1 p {
+        font-size: 2.5vw;
+    }
+
+    .primeiraPart-what1 p {
+        margin-top: 1vw;
+        font-size: 3.5vw;
+    }
+  
+    .card-what {
+        max-width: 50vw;
+        margin-right: 1vw;
+        border: solid 0.1vw;
+        color: #afa2a2;
+        padding: 2.5vw 4vw 2.5vw 4vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-what1 {
+        max-width: 50vw;
+    }
+
+    .mensagem h4{
+        font-size: 3vw;
+        margin-top: 8vw;
+    }
+
+
+
+    
+
+}

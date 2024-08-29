@@ -214,6 +214,15 @@ h3 {
         width: 40vw;
     }
 
+    .linhaConheca {
+        width: 35vw;
+        border-top: 0.15vw solid #FDC204;
+        border-radius: 0.078125vw;
+        margin: auto;
+        margin-bottom: 1vw;
+    }
+    
+
 
 
 }

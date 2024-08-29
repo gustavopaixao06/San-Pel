@@ -47,6 +47,7 @@ export function Servico() {
 
                 <div className="topicos-servico">
 
+                    <div className="part1-topico">
                     <div className='topico'>
                         <span className="dot-servico"></span>
                         <h4>Qualidade e Precisão</h4>
@@ -55,6 +56,7 @@ export function Servico() {
                     <div className='topico'>
                         <span className="dot-servico"></span>
                         <h4>Segurança e Conformidade</h4>
+                    </div>
                     </div>
 
                     <div className='topico'>

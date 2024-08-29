@@ -205,4 +205,12 @@
         transition: 0.5s ease;
     }
 
+    .linhaConheca-servicos {
+        width: 55vw;
+        border-top: 0.15vw solid  #FDC204;
+        border-radius: 0.078125vw;
+        margin: auto;
+        margin-bottom: 1vw;
+    }
+
 }
