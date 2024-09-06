@@ -215,5 +215,10 @@
         margin-left: 21vw;
         border-radius: 1vw;
     }
+
+    .botao-servico button{
+        padding: 1vw 8vw;
+        font-size: 2vw;
+    }
     
 }
