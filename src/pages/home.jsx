@@ -36,7 +36,7 @@ export function Home() {
                     <div className="linha-home"></div>
                     <p>Na <span style={{ color: '#FDC204' }}>SAN PEL</span>, somos especialistas em caldeiraria e solda, oferecendo soluções de alta qualidade e precisão para atender às necessidades dos nossos clientes.</p>
                 </div>
-            </section> 
+            </section>
 
             <section className='segunda-secao'>
 
@@ -124,55 +124,53 @@ export function Home() {
                     </div>
 
 
-                    <div className="part1-mobile">
-
-                        <div>
-                            <Link to="/nossosServicos" onClick={scrollToTop}>
-                                <div className="card1">
-                                    <img className='imgServico1' src="/img/calderaria.jpg" alt="" style={imageStyle} />
-                                    <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
-                                    <div className="saibaMais1">
-                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                    </div>
+                    <div className='cardsServicos-mobile'>
+                        
+                        <Link to="/nossosServicos" onClick={scrollToTop}>
+                            <div className="card1-mobile">
+                                <img className='imgServico1-mobile' src="/img/calderaria.jpg" alt="" style={imageStyle} />
+                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <div className="saibaMais1">
+                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                                 </div>
-                            </Link>
+                            </div>
+                        </Link>
 
-                            <Link to="/nossosServicos" onClick={scrollToTop}>
-                                <div className="card1">
-                                    <img className='imgServico' src="/img/tubulacao.svg" alt="" style={imageStyle} />
-                                    <p>Tanques e Tubulação de Diversas Finalidades</p>
-                                    <div className="saibaMais">
-                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                    </div>
+                        <Link to="/nossosServicos" onClick={scrollToTop}>
+                            <div className="card1-mobile">
+                                <img className='imgServico1-mobile' src="/img/estrutura.svg" alt="" style={imageStyle} />
+                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <div className="saibaMais1">
+                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className='cardsServicos-mobile'>
 
-                        <div>
-                            <Link to="/nossosServicos" onClick={scrollToTop}>
-                                <div className="card1">
-                                    <img className='imgServico' src="/img/estrutura.svg" alt="" style={imageStyle} />
-                                    <p>Estruturas Metalicas em Geral</p>
-                                    <div className="saibaMais">
-                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                    </div>
+                        <Link to="/nossosServicos" onClick={scrollToTop}>
+                            <div className="card1-mobile">
+                                <img className='imgServico1-mobile' src="/img/calderaria.jpg" alt="" style={imageStyle} />
+                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <div className="saibaMais1">
+                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                                 </div>
-                            </Link>
+                            </div>
+                        </Link>
 
-                            <Link to="/nossosServicos" onClick={scrollToTop}>
-                                <div className="card1">
-                                    <img className='imgServico' src="/img/equipamentos.svg" alt="" style={imageStyle} />
-                                    <p>Equipamentos Agrícolas</p>
-                                    <div className="saibaMais">
-                                        <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                        <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                    </div>
+                        <Link to="/nossosServicos" onClick={scrollToTop}>
+                            <div className="card1-mobile">
+                                <img className='imgServico1-mobile' src="/img/calderaria.jpg" alt="" style={imageStyle} />
+                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <div className="saibaMais1">
+                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
+                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
                                 </div>
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                     </div>
                     {/* 
                     <div className="part2">
