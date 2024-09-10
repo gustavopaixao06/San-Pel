@@ -152,14 +152,6 @@ export function Contato() {
                 </div>
             </section>
 
-            {/* <section className='quarta-secao-contato'>
-                <div className="curriculo">
-                    <h1>VENHA TRABALHAR CONOSCO</h1>
-                    <div className="linhaConheca-curriculo"></div>
-                    <h3>envie seu currículo</h3>
-                </div>
-
-            </section> */}
         </>
     );
 }

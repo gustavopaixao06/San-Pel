@@ -76,6 +76,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    .rodape{
+        margin-top: 15vw;
+    }
+
     .logo-footer img {
         width: 18vw;
     }

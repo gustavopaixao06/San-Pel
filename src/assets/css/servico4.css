@@ -28,3 +28,23 @@
     color: #afa2a2;
     font-size: 1vw;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .conheca-servico4 h1{
+        width: 100%;
+        font-size: 3.8vw;
+        transform: translateX(-15vw);
+    }
+
+    .linhaConheca-servico4 {
+        width: 50vw;
+        transform: translateX(-15vw);
+    }
+
+    .conheca-servico4 h3{
+        font-size: 3vw;
+        transform: translateX(-15vw);
+    }
+}

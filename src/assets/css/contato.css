@@ -107,6 +107,11 @@ h3 {
     font-size: 1.2vw;
 }
 
+.terceira-secao-contato {
+    width: 100%;
+    height: 100vw;
+}
+
 .mensagem {
     width: 100%;
 }
@@ -211,53 +216,7 @@ textarea {
     background-color: #e6b800;
 }
 
-.quarta-secao-contato{
-    width: 100%;
-    background-color: white;
-    height: 30vw;
-}
 
-.curriculo h1{
-    color: #263370;
-    font-size: 2vw;
-    text-align: center;
-    transform: translateY(3vw);
-}
-
-.linhaConheca-curriculo{
-    transform: translateY(3vw);
-    width: 20vw;
-    border-top: 0.15vw solid #FDC204;
-    border-radius: 0.078125vw;
-    margin: auto;
-}
-
-.curriculo h3{
-    color: #263370;
-    font-size: 1.5vw;
-    text-align: center;
-    transform: translateY(4vw);
-}
-
-.upload-input {
-    margin-top: 10vw;
-    padding: 0.6489292667099286vw;
-    border-radius: 0.3244646333549643vw;
-    border: 0.06489292667099286vw solid#2A3D81;
-    background-color: white;
-    color: #2A3D81;
-    cursor: pointer;
-    
-  }
-  
-  .upload-input::file-selector-button {
-    background-color: #2A3D81;
-    color: white;
-    border: none;
-    padding: 1.2978585334198571vw;
-    border-radius: 0.3244646333549643vw;
-    cursor: pointer;
-  }
   
 /* --------------------Versão mobile */
 
@@ -348,8 +307,42 @@ textarea {
         margin-top: 8vw;
     }
 
+    .linhaConheca-mensagem {
+        width: 30vw; /* Aumenta a largura da linha para telas menores */
+        border-top: 0.4vw solid #FDC204;
+    }
 
+    form {
+        width: 90vw; /* Formulário ocupa quase toda a largura da tela */
+        padding: 5vw; /* Maior padding para espaçamento em telas pequenas */
+        margin: 0 auto; /* Centraliza o formulário */
+        margin-top: 75vw;
+    }
 
+    .conjunto {
+        gap: 4vw; /* Espaçamento entre os campos */
+    }
+
+    .primeiraPart-forms,
+    .segundaPart-forms {
+        flex-direction: column; /* Campos em uma única coluna no mobile */
+        gap: 4vw; /* Aumenta o espaçamento vertical entre os inputs */
+    }
+
+    input, 
+    textarea {
+        width: 100%; /* Inputs ocupam a largura total */
+        padding: 2vw; /* Aumenta o padding para uma área de toque maior */
+        border-radius: 2vw;
+    }
+
+    .conjunto label{
+        font-size: 3vw;
+    }
+
+    #botao {
+        font-size: 2.4vw;
+    }
     
 
 }
