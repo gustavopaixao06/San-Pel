@@ -350,13 +350,11 @@ textarea {
 
     #botao {
         width: 40vw;
-        font-size: 4vw;
+        font-size: 3.5vw;
         background-color: #FFCC00;
         color: #263370;
         border: none;
         padding: 0.78125vw;
-        text-transform: uppercase;
-        font-weight: bold;
         cursor: pointer;
         border-radius: 3vw;
         transition: background-color 0.3s;
