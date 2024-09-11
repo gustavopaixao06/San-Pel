@@ -138,11 +138,11 @@ h3 {
     }
 
     .conheca-sobre h3 {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .conheca-sobre {
-        margin-left: 30vw;
+        margin-left: 27vw;
         text-align: center;
         position: absolute;
         top: 7vw;
@@ -167,8 +167,9 @@ h3 {
     }
 
     .descricao-sobre>p {
-        font-size: 2.2vw;
+        font-size: 3vw;
         color: white;
+        text-align: justify;
     }
 
     .descricao-sobre-img {
