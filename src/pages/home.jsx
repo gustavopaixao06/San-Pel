@@ -139,8 +139,8 @@ export function Home() {
 
                         <Link to="/nossosServicos" onClick={scrollToTop}>
                             <div className="card1-mobile">
-                                <img className='imgServico1-mobile' src="/img/estrutura.svg" alt="" style={imageStyle} />
-                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <img className='imgServico1-mobile' src="/img/img123.jpg" alt="" style={imageStyle} />
+                                <p>Tanques e Tubulação de Diversas Finalidades</p>
                                 <div className="saibaMais1">
                                     <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
                                     <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
@@ -148,12 +148,13 @@ export function Home() {
                             </div>
                         </Link>
                     </div>
+
                     <div className='cardsServicos-mobile'>
 
                         <Link to="/nossosServicos" onClick={scrollToTop}>
                             <div className="card1-mobile">
-                                <img className='imgServico1-mobile' src="/img/calderaria.jpg" alt="" style={imageStyle} />
-                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <img className='imgServico1-mobile' src="/img/img12.jpg" alt="" style={imageStyle} />
+                                <p>Estruturas Metalicas em Geral</p>
                                 <div className="saibaMais1">
                                     <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
                                     <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
@@ -163,8 +164,8 @@ export function Home() {
 
                         <Link to="/nossosServicos" onClick={scrollToTop}>
                             <div className="card1-mobile">
-                                <img className='imgServico1-mobile' src="/img/calderaria.jpg" alt="" style={imageStyle} />
-                                <p>Serviços de Caldeiraria Leve, Médio e Grande Porte </p>
+                                <img className='imgServico1-mobile' src="/img/img1234.jpg" alt="" style={imageStyle} />
+                                <p>Equipamentos Agrícolas</p>
                                 <div className="saibaMais1">
                                     <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
                                     <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>

@@ -396,6 +396,15 @@ a {
     display: none !important;
 }
 
+.cardsServicos-mobile {
+    display: none;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 3vw;
+}
+
 /* --------------------Versão mobile */
 
 @media only screen and (max-width: 600px) {
