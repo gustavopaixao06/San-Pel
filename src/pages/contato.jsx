@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import '../assets/css/contato.css'
 import whatsapp from "/img/whatsapp-icon.png";
 import instagram from "/img/instagram-icon.svg";
-=======
-import { useState } from 'react';
-import '../assets/css/contato.css';
->>>>>>> 8bc8714a62f13a08ce1c3f8c3f427dbf70cb8c96
 
 export function Contato() {
     const [formData, setFormData] = useState({
@@ -167,7 +162,6 @@ export function Contato() {
                     {statusMessage && <p>{statusMessage}</p>}
                 </div>
             </section>
-<<<<<<< HEAD
 
             <div className='fixed-bottom'>
                 <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
@@ -179,8 +173,6 @@ export function Contato() {
                 </a>
             </div>
 
-=======
->>>>>>> 8bc8714a62f13a08ce1c3f8c3f427dbf70cb8c96
         </>
     );
 }
