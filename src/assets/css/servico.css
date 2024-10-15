@@ -107,11 +107,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0vw 4vw 0vw 4vw;
+    padding: 0vw 8vw 0vw 8vw;
 }
 
 .imgs-servico img {
-    width: 25vw;
+    width: 20vw;
+    border-radius: 1vw;
 }
 
 .botao-servico {

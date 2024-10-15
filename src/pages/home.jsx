@@ -149,30 +149,6 @@ export function Home() {
                         </Link>
                     </div>
 
-                    <div className='cardsServicos-mobile'>
-
-                        <Link to="/nossosServicos" onClick={scrollToTop}>
-                            <div className="card1-mobile">
-                                <img className='imgServico1-mobile' src="/img/img12.jpg" alt="" style={imageStyle} />
-                                <p>Estruturas Metalicas em Geral</p>
-                                <div className="saibaMais1">
-                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                </div>
-                            </div>
-                        </Link>
-
-                        <Link to="/nossosServicos" onClick={scrollToTop}>
-                            <div className="card1-mobile">
-                                <img className='imgServico1-mobile' src="/img/img1234.jpg" alt="" style={imageStyle} />
-                                <p>Equipamentos Agrícolas</p>
-                                <div className="saibaMais1">
-                                    <Link to="/nossosServicos" onClick={scrollToTop}>Saiba mais</Link>
-                                    <Link to="/nossosServicos" onClick={scrollToTop}><img src="/img/seta.svg" alt="" /></Link>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
                     {/* 
                     <div className="part2">
                         <div className="card1">
@@ -254,13 +230,6 @@ export function Home() {
                             <a href="" target='_blank'><img id='silvicultura' src={silvicultura} alt="" /></a>
                         </div>
 
-                        <div className="samsung">
-                            <a href="" target='_blank'><img id='bekaert' src={potencial} alt="" /></a>
-                        </div>
-
-                        <div className="samsung">
-                            <a href="" target='_blank'><img id='bekaert' src={potencial} alt="" /></a>
-                        </div>
                     </div>
 
 

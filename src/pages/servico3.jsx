@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import '../assets/css/servico3.css'
+import whatsapp from "/img/whatsapp-icon.png";
+import instagram from "/img/instagram-icon.svg";
 
 
 export function Servico3() {
@@ -79,11 +81,11 @@ export function Servico3() {
 
                 <div className='imgs-servico'>
 
-                    <img src="/img/soldador1.webp" alt="" />
+                    <img src="/img/1estrutura.svg" alt="" />
 
-                    <img src="/img/soldador2.png" alt="" />
+                    <img src="/img/estrutura2.svg" alt="" />
 
-                    <img src="/img/soldador3.webp" alt="" />
+                    <img src="/img/estrutura3.svg" alt="" />
                 </div>
 
                 <div className="botao-servico">
@@ -91,6 +93,15 @@ export function Servico3() {
                 </div>
             </section>
 
+            <div className='fixed-bottom'>
+                <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
+                    <img src={whatsapp} className="custom-whatsapp-img" alt="WhatsApp" />
+
+                </a>
+                <a id='botaoFixo' href="https://www.instagram.com/sanpel.caldeiraria/" target='blank'>
+                    <img src={instagram} className="custom-whatsapp-img" alt="WhatsApp" />
+                </a>
+            </div>
 
         </>
     )

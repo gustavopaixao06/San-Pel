@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import '../assets/css/servico6.css'
-
+import whatsapp from "/img/whatsapp-icon.png";
+import instagram from "/img/instagram-icon.svg";
 
 export function Servico6() {
 
@@ -89,6 +90,15 @@ export function Servico6() {
                 </div>
             </section>
 
+            <div className='fixed-bottom'>
+                <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
+                    <img src={whatsapp} className="custom-whatsapp-img" alt="WhatsApp" />
+
+                </a>
+                <a id='botaoFixo' href="https://www.instagram.com/sanpel.caldeiraria/" target='blank'>
+                    <img src={instagram} className="custom-whatsapp-img" alt="WhatsApp" />
+                </a>
+            </div>
 
         </>
     )

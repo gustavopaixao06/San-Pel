@@ -261,7 +261,7 @@ a {
 .fornecedores {
     display: flex;
     width: calc(36.807291666666664vw * 16);
-    animation: scroll 13s linear infinite;
+    animation: scroll 8s linear infinite;
 }
 
 .samsung {
@@ -284,7 +284,7 @@ a {
     }
 
     100% {
-        transform: translateX(calc(-14.276041666666668vw * 6.4));
+        transform: translateX(calc(-14.276041666666668vw * 3.3));
     }
 }
 
@@ -603,7 +603,7 @@ a {
         border-bottom-left-radius: 0.5vw;
         border-bottom-right-radius: 0.5vw;
         padding: 1vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     
     .saibaMais1 img {

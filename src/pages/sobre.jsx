@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../assets/css/sobre.css'
+import whatsapp from "/img/whatsapp-icon.png";
+import instagram from "/img/instagram-icon.svg";
 
 export function Sobre() {
     return (
@@ -73,6 +75,17 @@ export function Sobre() {
 
                 </div>
             </section>
+
+            <div className='fixed-bottom'>
+                <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
+                    <img src={whatsapp} className="custom-whatsapp-img" alt="WhatsApp" />
+
+                </a>
+                <a id='botaoFixo' href="https://www.instagram.com/sanpel.caldeiraria/" target='blank'>
+                    <img src={instagram} className="custom-whatsapp-img" alt="WhatsApp" />
+                </a>
+            </div>
+
         </>
     )
 }
