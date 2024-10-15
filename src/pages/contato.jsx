@@ -1,83 +1,57 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import '../assets/css/contato.css'
 import whatsapp from "/img/whatsapp-icon.png";
 import instagram from "/img/instagram-icon.svg";
+=======
+import { useState } from 'react';
+import '../assets/css/contato.css';
+>>>>>>> 8bc8714a62f13a08ce1c3f8c3f427dbf70cb8c96
 
 export function Contato() {
-
-    class FormSubmit {
-        constructor(settings) {
-            this.settings = settings;
-            this.form = document.querySelector(settings.form);
-            this.formButton = document.querySelector(settings.button);
-            if (this.form) {
-                this.url = this.form.getAttribute("action");
-            }
-            this.sendForm = this.sendForm.bind(this);
-        }
-
-        displaySuccess() {
-            this.form.innerHTML = this.settings.success;
-        }
-
-        displayError() {
-            this.form.innerHTML = this.settings.error;
-        }
-
-        getFormObject() {
-            const formObject = {};
-            const fields = this.form.querySelectorAll("[name]");
-            fields.forEach((field) => {
-                formObject[field.getAttribute("name")] = field.value;
-            });
-            return formObject;
-        }
-
-        async sendForm(event) {
-            event.preventDefault(); // Prevenir o comportamento padrão de envio do formulário
-            this.formButton.disabled = true;
-            this.formButton.innerText = "Enviando...";
-
-            try {
-                const response = await fetch(this.url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                        Accept: "application/json"
-                    },
-                    body: JSON.stringify(this.getFormObject()),
-                });
-
-                if (response.ok) {
-                    this.displaySuccess();
-                } else {
-                    this.displayError();
-                }
-            } catch (error) {
-                this.displayError();
-                console.error("Erro ao enviar o formulário:", error);
-            } finally {
-                this.formButton.disabled = false;
-                this.formButton.innerText = "Enviar";
-            }
-        }
-
-        init() {
-            if (this.form) {
-                this.form.addEventListener("submit", this.sendForm); // Adicionando o evento 'submit' diretamente no formulário
-            }
-            return this;
-        }
-    }
-
-    const formSubmit = new FormSubmit({
-        form: "[data-form]",
-        button: "[data-button]",
-        success: "<h1 class='success'>Sucesso</h1>",
-        error: "<h1 class='error'>Não foi possível enviar a mensagem. Por favor, tente novamente mais tarde.</h1>",
+    const [formData, setFormData] = useState({
+        nome: '',
+        email: '',
+        telefone: '',
+        assunto: '',
+        mensagem: ''
     });
-    formSubmit.init();
+
+    const [statusMessage, setStatusMessage] = useState(null);
+
+    // Atualiza os valores do formulário
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    // Função para enviar o formulário
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatusMessage("Enviando...");
+
+        try {
+            const response = await fetch('https://nodemailer-sanpel.onrender.com/send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                setStatusMessage("E-mail enviado com sucesso!");
+            } else {
+                setStatusMessage("Erro ao enviar o e-mail. Tente novamente.");
+            }
+        } catch (error) {
+            setStatusMessage("Erro ao enviar o e-mail. Verifique sua conexão.");
+        }
+    };
 
     return (
         <>
@@ -122,37 +96,78 @@ export function Contato() {
                 </div>
 
                 <div className="form">
-                    <form action="https://formsubmit.co/ajax/paixaogabriel246@gmail.com" method="POST" data-form>
+                    <form onSubmit={handleSubmit} data-form>
                         <div className="conjunto">
                             <div className="primeiraPart-forms">
                                 <div className="input-wrapper">
                                     <label htmlFor="nome">Nome</label>
-                                    <input type="text" name="nome" id="nome" placeholder="Seu nome aqui*" required />
+                                    <input 
+                                        type="text" 
+                                        name="nome" 
+                                        id="nome" 
+                                        placeholder="Seu nome aqui*" 
+                                        required 
+                                        value={formData.nome} 
+                                        onChange={handleChange} 
+                                    />
                                 </div>
                                 <div className="input-wrapper">
                                     <label htmlFor="email">E-mail</label>
-                                    <input type="email" name="email" id="email" placeholder="Seu email aqui*" required />
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        id="email" 
+                                        placeholder="Seu email aqui*" 
+                                        required 
+                                        value={formData.email} 
+                                        onChange={handleChange} 
+                                    />
                                 </div>
                             </div>
                             <div className="segundaPart-forms">
                                 <div className="input-wrapper">
                                     <label htmlFor="telefone">Telefone</label>
-                                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone aqui*" required />
+                                    <input 
+                                        type="tel" 
+                                        name="telefone" 
+                                        id="telefone" 
+                                        placeholder="Seu telefone aqui*" 
+                                        required 
+                                        value={formData.telefone} 
+                                        onChange={handleChange} 
+                                    />
                                 </div>
                                 <div className="input-wrapper">
                                     <label htmlFor="assunto">Assunto</label>
-                                    <input type="text" name="assunto" id="assunto" placeholder="Assunto*" required />
+                                    <input 
+                                        type="text" 
+                                        name="assunto" 
+                                        id="assunto" 
+                                        placeholder="Assunto*" 
+                                        required 
+                                        value={formData.assunto} 
+                                        onChange={handleChange} 
+                                    />
                                 </div>
                             </div>
                             <div className="mensagem">
                                 <label htmlFor="mensagem">Mensagem</label>
-                                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                                <textarea 
+                                    name="mensagem" 
+                                    id="mensagem" 
+                                    placeholder="Mensagem*" 
+                                    required 
+                                    value={formData.mensagem} 
+                                    onChange={handleChange} 
+                                ></textarea>
                             </div>
                             <button type="submit" id="botao" data-button>Enviar</button>
                         </div>
                     </form>
+                    {statusMessage && <p>{statusMessage}</p>}
                 </div>
             </section>
+<<<<<<< HEAD
 
             <div className='fixed-bottom'>
                 <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
@@ -164,6 +179,8 @@ export function Contato() {
                 </a>
             </div>
 
+=======
+>>>>>>> 8bc8714a62f13a08ce1c3f8c3f427dbf70cb8c96
         </>
     );
 }
