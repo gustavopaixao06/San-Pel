@@ -194,25 +194,6 @@ a {
     font-size: 0.8vw;
 }
 
-.saibaMais1 {
-    width: 20vw;
-    background-color: #2B3570;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-    padding: 1vw;
-    font-size: 0.8vw;
-}
-
-.saibaMais img {
-    margin-left: 13vw;
-    width: 0.5vw;
-    
-}
-
-.saibaMais1 img {
-    margin-left: 13vw;
-    width: 0.5vw;
-}
 
 /* part2 */
 
@@ -607,8 +588,8 @@ a {
     }
     
     .saibaMais1 img {
-        margin-left: 28vw;
-        width: 1vw;
+        margin-left: 24vw;
+        width: 1.5vw;
     }
 
 }
