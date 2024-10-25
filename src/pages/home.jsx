@@ -6,6 +6,8 @@ import imgSoldador from '../../public/img/imgSoldador.svg'
 import bekaert from '../../public/img/bekaert.svg'
 import castrolandia from '../../public/img/castrolandia.svg'
 import silvicultura from '../../public/img/silvicultura.svg'
+import mr from '../../public/img/MR.png'
+
 import '../assets/css/home.css'
 import whatsapp from "/img/whatsapp-icon.png";
 import instagram from "/img/instagram-icon.svg";
@@ -207,28 +209,33 @@ export function Home() {
 
                     <div className="fornecedores">
                         <div className="samsung">
-                            <a href="" target='_blank'><img id='bekaert' src={bekaert} alt="" /></a>
+                            <img id='bekaert' src={bekaert} alt="" />
                         </div>
 
                         <div className="samsung">
-                            <a href="" target='_blank'><img src={dexco} alt="" id='dexco' /></a>
+                            <img src={dexco} alt="" id='dexco' />
                         </div>
 
                         <div className="samsung">
-                            <a href="" target='_blank'><img id='pontencial' src={potencial} alt="" /></a>
+                            <img id='pontencial' src={potencial} alt="" />
                         </div>
 
                         <div className="samsung">
-                            <a href="" target='_blank'><img id='uniarea' src={uniarea} alt="" /></a>
+                            <img id='uniarea' src={uniarea} alt="" />
                         </div>
 
                         <div className="samsung">
-                            <a href="" target='_blank'><img id='castrolandia' src={castrolandia} alt="" /></a>
+                            <img id='castrolandia' src={castrolandia} alt="" />
+                        </div>
+                        
+                        <div className="samsung">
+                            <img id='mr' src={mr} alt="" />
                         </div>
 
                         <div className="samsung">
-                            <a href="" target='_blank'><img id='silvicultura' src={silvicultura} alt="" /></a>
+                            <img id='silvicultura' src={silvicultura} alt="" />
                         </div>
+
 
                     </div>
 

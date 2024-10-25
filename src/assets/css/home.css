@@ -194,6 +194,25 @@ a {
     font-size: 0.8vw;
 }
 
+.saibaMais1 {
+    width: 20vw;
+    background-color: #2B3570;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    padding: 1vw;
+    font-size: 0.8vw;
+}
+
+.saibaMais img {
+    margin-left: 13vw;
+    width: 0.5vw;
+    
+}
+
+.saibaMais1 img {
+    margin-left: 13vw;
+    width: 0.5vw;
+}
 
 /* part2 */
 
@@ -265,7 +284,7 @@ a {
     }
 
     100% {
-        transform: translateX(calc(-14.276041666666668vw * 3.3));
+        transform: translateX(calc(-14.276041666666668vw * 5));
     }
 }
 
@@ -294,6 +313,11 @@ a {
 
 #castrolandia{
     width: 13vw;
+}
+
+#mr {
+    width: 10vw;
+    margin-left: 1vw;
 }
 
 #bekaert{
@@ -443,7 +467,7 @@ a {
 
     .sobreHome h1 {
         font-size: 4vw;
-        margin-top: 6vw;    
+        margin-top: 6vw;
     }
 
     .linhaSobre {
@@ -529,6 +553,11 @@ a {
         transform: translateX(-1vw);
     }
 
+    #mr {
+        width: 19vw;
+        transform: translateX(-1vw);
+    }
+
     .projetos-realizados > h2 {
         font-size: 4vw;
     }
@@ -592,8 +621,8 @@ a {
     }
     
     .saibaMais1 img {
-        margin-left: 24vw;
-        width: 1.5vw;
+        margin-left: 28vw;
+        width: 1vw;
     }
 
 }
