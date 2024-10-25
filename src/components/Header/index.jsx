@@ -33,7 +33,7 @@ export function Header() {
 
     const showMenuMobile = () => {
         const menuMobile = document.querySelector('.mobile-click');
-        
+
         let menuStatus = 0
 
         if (menuStatus === 0) {
@@ -118,7 +118,7 @@ export function Header() {
                         </nav>
                     </div>
                 </div>
-                
+
             </header>
         </>
     );

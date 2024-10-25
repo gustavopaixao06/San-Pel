@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import potencial from '../../public/img/potencial.svg'
 import '../assets/css/contato.css'
+import React, { useState } from 'react';
 import whatsapp from "/img/whatsapp-icon.png";
 import instagram from "/img/instagram-icon.svg";
 
@@ -46,7 +47,10 @@ export function Contato() {
         } catch (error) {
             setStatusMessage("Erro ao enviar o e-mail. Verifique sua conexão.");
         }
+
     };
+
+    
 
     return (
         <>
@@ -164,15 +168,16 @@ export function Contato() {
             </section>
 
             <div className='fixed-bottom'>
-                <a id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
+                <Link id='botaoFixo' href="https://web.whatsapp.com/send?phone=5515981061909" target='_blank' rel='noopener noreferrer'>
                     <img src={whatsapp} className="custom-whatsapp-img" alt="WhatsApp" />
-
-                </a>
-                <a id='botaoFixo' href="https://www.instagram.com/sanpel.caldeiraria/" target='blank'>
+                </Link>
+                <Link id='botaoFixo' href="https://www.instagram.com/sanpel.caldeiraria/" target='blank'>
                     <img src={instagram} className="custom-whatsapp-img" alt="WhatsApp" />
-                </a>
+                </Link>
             </div>
 
         </>
     );
 }
+
+export default Contato;
