@@ -116,7 +116,7 @@ a {
 .terceira-secao {
 
     width: 100%;
-    padding: 5vw 0vw 2vw 0vw;
+    padding: 10vw 0vw 2vw 0vw;
     background: #e7e6e6;
 }
 
@@ -443,6 +443,7 @@ a {
 
     .sobreHome h1 {
         font-size: 4vw;
+        margin-top: 6vw;    
     }
 
     .linhaSobre {
@@ -460,6 +461,8 @@ a {
 
     .botao {
         text-align: center;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
     }
 
     .servicos h1 {
@@ -495,6 +498,7 @@ a {
     .clientes h2 {
         font-size: 4vw;
         margin-left: 10vw;
+        margin-top: 6vw;
     }
 
     .linhaClientes {
