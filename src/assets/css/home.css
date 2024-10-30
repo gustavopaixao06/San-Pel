@@ -317,7 +317,7 @@ a {
 
 #mr {
     width: 10vw;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
 }
 
 #bekaert{
@@ -554,8 +554,9 @@ a {
     }
 
     #mr {
-        width: 19vw;
+        width: 12vw;
         transform: translateX(-1vw);
+        margin-left: 3.5vw;
     }
 
     .projetos-realizados > h2 {
