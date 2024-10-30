@@ -626,6 +626,22 @@ a {
         width: 1vw;
     }
 
+    .fornecedores {
+        display: flex;
+        width: calc(36.807291666666664vw * 16);
+        animation: scroll 10s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+    
+        100% {
+            transform: translateX(calc(-28.276041666666668vw * 5));
+        }
+    }
+
 }
 
 
