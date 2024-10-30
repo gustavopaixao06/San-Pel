@@ -64,7 +64,7 @@ export function Header() {
                         </nav>
 
                         <figure className='logo'>
-                            <img src="/img/logo-sanpel.svg" alt="Logo" />
+                           <Link to="/"><img src="/img/logo-sanpel.svg" alt="Logo" /></Link> 
                         </figure>
 
                         <nav className='menu-right'>

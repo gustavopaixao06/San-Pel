@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import potencial from "../../public/img/potencial.svg";
 import dexco from "../../public/img/dexco.svg";
-import uniarea from "../../public/img/uniarea.svg";
+import python from "../../public/img/python.svg";
 import imgSoldador from "../../public/img/imgSoldador.svg";
 import bekaert from "../../public/img/bekaert.svg";
 import castrolandia from "../../public/img/castrolandia.svg";
 import silvicultura from "../../public/img/silvicultura.svg";
 import mr from "../../public/img/MR.png";
+import vale from "../../public/img/logoVale.svg";
+import gruporb from "../../public/img/gruporb.svg";
 
 import "../assets/css/home.css";
 import whatsapp from "/img/whatsapp-icon.png";
@@ -249,7 +251,7 @@ export function Home() {
             </div>
 
             <div className="samsung">
-              <img id="uniarea" src={uniarea} alt="" />
+              <img id="uniarea" src={python} alt="" />
             </div>
 
             <div className="samsung">
@@ -261,10 +263,19 @@ export function Home() {
             </div>
 
             <div className="samsung">
+              <img id="silvicultura" src={vale} alt="" />
+            </div>
+
+            <div className="samsung">
               <img id="silvicultura" src={silvicultura} alt="" />
             </div>
+
+            <div className="samsung">
+              <img id="silvicultura" src={gruporb} alt="" />
+            </div>
+            
           </div>
-        </div>{" "}
+        </div>
         {/* fechando div caroucel */}
       </section>{" "}
       {/*  fechando quarta seção */}

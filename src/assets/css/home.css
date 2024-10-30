@@ -252,7 +252,7 @@ a {
     height: 16.276041666666668vw;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -261,7 +261,7 @@ a {
 .fornecedores {
     display: flex;
     width: calc(36.807291666666664vw * 16);
-    animation: scroll 8s linear infinite;
+    animation: scroll 15s linear infinite;
 }
 
 .samsung {
@@ -284,7 +284,7 @@ a {
     }
 
     100% {
-        transform: translateX(calc(-14.276041666666668vw * 5));
+        transform: translateX(calc(-21.276041666666668vw * 5));
     }
 }
 
